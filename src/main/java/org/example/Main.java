@@ -13,5 +13,6 @@ public class Main {
         model.performQuack();
         model.setFlyBehavior(new FlyNoWay());
         model.performFly();
+        System.out.println("This Pattern is STRATEGY");
     }
 }
